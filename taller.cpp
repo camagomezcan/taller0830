@@ -27,7 +27,7 @@ int main()
 	if (eigensolver.info() != Success) abort();
 	std::cout<<A<<std::endl;
 	std::cout<<"Los autovalores de la Matriz son: \n"<<eigensolver.eigenvalues()<<std::endl;
-	std::cout<<"Los autovectores a los autovalores correspondietes son:\n"<<eigensolver.eigenvectors()<<std::endl;
+	std::cout<<"Los autovectores de los autovalores correspondietes son:\n"<<eigensolver.eigenvectors()<<std::endl;
 	
 	return 0;
 }
